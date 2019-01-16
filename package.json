@@ -8,6 +8,7 @@
   "author": "Ziqi (Jerry) Zhou",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "nodemon": "^1.18.9",
     "pino": "^5.10.6"
   },
