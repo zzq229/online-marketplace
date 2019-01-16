@@ -1,0 +1,19 @@
+{
+  "name": "shopify-summer-2019-developer-intern-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ziqi (Jerry) Zhou",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.18.9",
+    "pino": "^5.10.6"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "pg": "^7.8.0"
+  }
+}
