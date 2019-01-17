@@ -55,10 +55,6 @@ npm start
 
 ### Cart related
 
-* [Add contact](document/contact/add.md) : `POST /contact/add`
-* [Get contact](document/contact/list.md) : `GET /contact/list`
-* [Update contact](document/contact/update.md) : `PUT /contact/update`
-* [Delete contact](document/contact/delete.md) : `DELETE /contact/delete`
 
 
 
