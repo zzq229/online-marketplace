@@ -3,7 +3,7 @@ const db = require('../utilities/db')
 const router = express.Router()
 const logger = require('pino')()
 
-router.post('/addItem', async function (req, res, next) {
+router.post('/additem', async function (req, res, next) {
   let items = req.body
   if (!items) return res.status(400).send('Not enough parameter')
   else {
@@ -45,7 +45,7 @@ router.post('/complete', async function (req, res, next) {
   let cart = await db.getAllCart()
   return db.updateCartItem(cart).then(_ => {
     return db.deleteCart().then(_ => {
-      return res.status(200).send('Complete purchase')
+      return res.status(200).send('Completed purchase')
     })
   })
 })

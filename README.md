@@ -55,6 +55,9 @@ npm start
 
 ### Cart related
 
+* [Add Item](document/cart/additem.md) : `POST /cart/addItem`
+* [Get Cart](document/cart/getcart.md) : `GET /cart/getcart`
+* [Complete Cart](document/cart/complete.md) : `POST /cart/complete`
 
 
 
