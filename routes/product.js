@@ -22,6 +22,8 @@ router.get('/getall', function (req, res, next) {
   let onlyAvailable = req.query.onlyavailable
   if (!onlyAvailable) return res.status(400).send('Not enough parameter')
   else {
+    if (onlyAvailable === 'true') onlyAvailable = true
+    else onlyAvailable = false
     return db.getAllProduct(onlyAvailable).then(getRes => {
       logger.info(getRes)
       res.status(200).send(getRes)
